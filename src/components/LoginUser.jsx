@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import {withRouter, useHistory} from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 
-
 function LoginUser() {
     //States.
     const [Entradas, setEntradas] = useState([]);
